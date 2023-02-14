@@ -38,3 +38,6 @@ $RECYCLE.BIN/
 
 # local env files
 .env*
+
+# zip files
+*.zip
