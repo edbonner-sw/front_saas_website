@@ -44,6 +44,7 @@ a {
   height: 33.25rem;
   left: 0rem;
   top: 0rem;
+  z-index: 1000;
 }
 
 header {
@@ -273,8 +274,8 @@ nav {
 }
 
 .asana {
-  left: 315px;
-  top: 117px;
+  left: 380px;
+  top: 57px;
 }
 
 .asana-img {
@@ -282,8 +283,8 @@ nav {
 }
 
 .calendar {
-  left: 285px;
-  top: 330px;
+  top: 310px;
+  left: 364px;
 }
 
 .calendar-img {
@@ -291,8 +292,8 @@ nav {
 }
 
 .weave {
-  left: 192px;
-  top: 92px;
+  left: 272px;
+  top: 32px;
 }
 
 .weave-img {
@@ -300,8 +301,8 @@ nav {
 }
 
 .paypal {
-  left: -44px;
-  top: 0px;
+  left: 55px;
+  top: -55px;
 }
 
 .paypal-img {
@@ -309,8 +310,8 @@ nav {
 }
 
 .attlasian {
-  left: 100px;
-  top: -250px;
+  left: 180px;
+  top: -310px;
 }
 
 .attlasian-img {
@@ -318,8 +319,8 @@ nav {
 }
 
 .googleAds {
-  left: 100px;
-  top: -60px;
+  left: 150px;
+  top: -90px;
 }
 
 .googleAds-img {
@@ -327,8 +328,8 @@ nav {
 }
 
 .google {
-  left: -13px;
-  top: -415px;
+  left: 58px;
+  top: -473px;
 }
 
 .google-img {
@@ -345,4 +346,34 @@ nav {
   order: 0;
   align-self: stretch;
   flex-grow: 1;
+}
+
+#topSectionBackground {
+  position: absolute;
+  width: 1023.5px;
+  height: 517px;
+  left: 0.5px;
+  top: -1px;
+}
+
+.Vector2 {
+  position: absolute;
+  width: 316px;
+  height: 443px;
+  left: 711.5px;
+  top: 0px;
+  background-color: #e1e7ef;
+}
+
+.Vector1 {
+  position: absolute;
+  width: 884.5px;
+  height: 517px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(
+    312.73deg,
+    rgba(217, 217, 217, 0.44) 17.61%,
+    rgba(217, 217, 217, 0) 55.85%
+  );
 }
