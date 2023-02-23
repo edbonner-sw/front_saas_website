@@ -41,7 +41,8 @@ a {
   padding: 0rem;
   position: absolute;
   width: 64rem;
-  height: 33.25rem;
+  /* height: 33.25rem; */
+  height: 38.5625rem;
   left: 0rem;
   top: 0rem;
   z-index: 1000;
@@ -351,12 +352,12 @@ nav {
 #topSectionBackground {
   position: absolute;
   width: 1023.5px;
-  height: 517px;
+  height: 617px;
   left: 0.5px;
   top: -1px;
 }
 
-.Vector2 {
+/* .Vector2 {
   position: absolute;
   width: 316px;
   height: 443px;
@@ -376,4 +377,4 @@ nav {
     rgba(217, 217, 217, 0.44) 17.61%,
     rgba(217, 217, 217, 0) 55.85%
   );
-}
+} */
