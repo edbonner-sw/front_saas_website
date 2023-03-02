@@ -746,6 +746,11 @@ nav {
   height: 1px;
   order: 0;
   flex-grow: 1;
+  background: #e6e9f2;
+}
+
+.bullet:nth-child(1) #leftWing {
+  display: none;
 }
 
 .bulletCircle {
@@ -758,7 +763,7 @@ nav {
   width: var(--size-50);
   height: var(--size-50);
   background: #ecf2ff;
-  border-radius: var(--size-25);
+  border-radius: 40px;
   order: 1;
 }
 
@@ -775,6 +780,10 @@ nav {
   background: #e6e9f2;
   order: 2;
   flex-grow: 1;
+}
+
+.bullet:nth-child(4) #rightWing {
+  display: none;
 }
 
 .bulletTitle {
@@ -796,4 +805,62 @@ nav {
   line-height: 19px;
   text-align: center;
   color: var(--text-section-color);
+}
+
+.bannerPlaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 30px 80px;
+  gap: 10px;
+  width: 64rem;
+  height: 497px;
+  z-index: 5;
+  order: 5;
+}
+
+#bannerFrame {
+  width: 964px;
+  height: 497px;
+}
+
+.playButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 4px;
+  gap: 10px;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  left: 447px;
+  top: 172px;
+  background: var(--def-background-color);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  z-index: 10;
+}
+
+.playButton i {
+  width: 15px;
+  height: 20px;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  color: var(--text-section-color);
+  z-index: 10;
+}
+
+.banner_two {
+  position: relative;
+  width: 964px;
+  height: 414px;
+  left: 0px;
+  top: 0px;
+  background: url(banners/banner_two.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
