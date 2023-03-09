@@ -522,6 +522,9 @@ nav {
   align-items: center;
   padding: 0rem;
   gap: var(--size-10);
+}
+
+#topPart .titleWithIcon {
   position: relative;
   width: 8.75rem;
   height: 1.4375rem;
@@ -529,19 +532,19 @@ nav {
   top: 0rem;
 }
 
-.titleWithIcon p {
-  width: 4.375rem;
-  height: 1.1875rem;
+#topPart .titleWithIcon p {
   font-weight: 700;
   font-size: var(--size-16);
   line-height: var(--size-19);
   color: var(--text-section-color);
+  width: 4.375rem;
+  height: 1.1875rem;
   order: 0;
 }
 
 .status {
   display: flex;
-  align-items: center;
+  text-align: center;
   padding: 0.25rem var(--size-10);
   gap: var(--size-10);
   width: var(--size-60);
@@ -551,12 +554,16 @@ nav {
   order: 1;
 }
 
-.status p {
-  width: var(--size-40);
-  height: var(--size-15);
+#topPart .status {
+  align-items: center;
+}
+
+#topPart .status p {
   font-weight: 700;
   font-size: var(--size-12);
   line-height: var(--size-15);
+  width: var(--size-40);
+  height: var(--size-15);
   color: var(--def-background-color);
 }
 
@@ -1024,10 +1031,13 @@ nav {
   order: 1;
 }
 
-#weebly {
-  background: url(/company_logos/weebly.svg);
+.brand-img {
   width: 112.8px;
   height: 48px;
+}
+
+#weebly {
+  background: url(/company_logos/weebly.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1036,8 +1046,6 @@ nav {
 
 #uber {
   background: url(/company_logos/uber.svg);
-  width: 112.8px;
-  height: 48px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1046,8 +1054,6 @@ nav {
 
 #slack1 {
   background: url(/company_logos/slack.svg);
-  width: 112.8px;
-  height: 48px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1056,8 +1062,6 @@ nav {
 
 #airbnb {
   background: url(company_logos/airbnb.svg);
-  width: 112.8px;
-  height: 48px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1066,8 +1070,6 @@ nav {
 
 #slack2 {
   background: url(company_logos/slack.svg);
-  width: 112.8px;
-  height: 48px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1262,12 +1264,15 @@ nav {
   order: 1;
 }
 
-.rowOne {
+.plan-row {
   display: flex;
   align-items: flex-start;
   padding: 0px;
   gap: 10px;
   width: 536px;
+}
+
+.rowOne {
   height: 241px;
   order: 0;
 }
@@ -1279,9 +1284,12 @@ nav {
   padding: 20px;
   gap: 20px;
   width: 263px;
-  height: 241px;
   background: var(--def-background-color);
   border: 1px solid var(--def-background-color);
+}
+
+.planFeatureItem1 {
+  height: 241px;
   order: 0;
 }
 
@@ -1292,17 +1300,16 @@ nav {
   padding: 0px;
   gap: 20px;
   width: 223px;
-  height: 201px;
   order: 0;
+}
+
+.itemContent1 {
+  height: 201px;
 }
 
 #components {
   width: 50px;
   height: 50px;
-  background: url(/icons/components.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   order: 0;
 }
 
@@ -1311,13 +1318,15 @@ nav {
   align-items: center;
   padding: 0px;
   gap: 10px;
-  width: 224px;
   height: 23px;
   order: 1;
 }
 
-.itemContent .title p {
+.itemContent .title1 {
   width: 224px;
+}
+
+.itemContent .title p {
   height: 22px;
   font-weight: 700;
   font-size: 18px;
@@ -1326,21 +1335,100 @@ nav {
   order: 0;
 }
 
+.itemContent .title1 p {
+  width: 224px;
+}
+
 .itemContent p {
   width: 223px;
-  height: 88px;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
   order: 2;
 }
 
+.itemContent1 p {
+  height: 88px;
+}
+
+.planFeatureItem2 {
+  height: 263px;
+  order: 1;
+}
+
+.itemContent2 {
+  height: 223px;
+}
+
+.itemContent .title2 {
+  width: 145px;
+}
+
+.itemContent .title2 p {
+  width: 145px;
+}
+
+.itemContent2 p {
+  height: 66px;
+}
+
 #images {
   width: 50px;
   height: 50px;
-  background: url(/icons/images.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
   order: 0;
+}
+
+.rowTwo {
+  height: 201px;
+  order: 1;
+}
+
+.planFeatureItem3 {
+  height: 201px;
+  order: 0;
+}
+
+.itemContent3 {
+  height: 161px;
+}
+
+.topPart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  width: 223px;
+  height: 93px;
+  order: 0;
+}
+
+#cancel {
+  width: 50px;
+  height: 50px;
+  order: 0;
+}
+
+.topPart .titleWithIcon p {
+  width: 127px;
+  height: 19px;
+  font-weight: 700;
+  font-size: var(--size-16);
+  line-height: var(--size-19);
+  color: var(--text-section-color);
+  order: 0;
+}
+
+.topPart .status {
+  align-items: center;
+}
+
+.topPart .status p {
+  text-align: center;
+  font-weight: 700;
+  font-size: var(--size-12);
+  line-height: var(--size-15);
+  width: var(--size-40);
+  height: var(--size-15);
+  color: var(--def-background-color);
 }
