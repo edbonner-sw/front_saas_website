@@ -1,0 +1,63 @@
+:root {
+  --def-background-color: #ffffff;
+  --def-font-color: #677788;
+  --link-color: #2476ff;
+  --text-section-color: #000000;
+  --size-10: 0.625rem;
+  --size-12: 0.75rem;
+  --size-14: 0.857rem;
+  --size-15: 0.9375rem;
+  --size-16: 1rem;
+  --size-17: 1.0625rem;
+  --size-19: 1.1875rem;
+  --size-20: 1.25rem;
+  --size-24: 1.5rem;
+  --size-25: 1.5625rem;
+  --size-26: 1.625rem;
+  --size-30: 1.875rem;
+  --size-32: 2rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-55: 3.4375rem;
+  --size-60: 3.75rem;
+  --size-80: 5rem;
+  --size-93: 5.8125rem;
+  --size-120: 7.5rem;
+  --size-178: 11.15625rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  max-width: 64rem;
+  /* margin: auto; */
+  background: var(--def-background-color);
+  color: var(--def-font-color);
+  isolation: isolate;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin: auto; */
+  /* height: 100%; */
+  max-width: 64rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--def-font-color);
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.1);
+}
