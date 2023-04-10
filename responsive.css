@@ -4,21 +4,63 @@
   }
 
   [aria-expanded="false"] ~ .click-button,
-  [aria-expanded="false"] ~ ul {
+  [aria-expanded="false"] ~ .navList {
     display: none;
   }
 
-  [aria-expanded="true"] ~ ul {
-    display: block;
+  [aria-expanded="true"] ~ #frame28 {
     position: absolute;
-    right: 0;
-    top: var(--size-50);
-    width: 100%;
-    text-align: right;
-    box-shadow: 0px 0px 20px rgba(52, 49, 75, 0.1);
+    width: 768px;
+    height: 681px;
+    left: 0px;
+    top: 86px;
+    background: var(--def-background-color);
+    order: 3;
+    z-index: 3;
   }
 
-  [aria-expanded="true"] ~ ul li a {
-    margin-right: var(--size-20);
+  [aria-expanded="true"] ~ #frame28 .navList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 456px;
+    height: 22px;
+    order: 0;
+  }
+
+  #topSection {
+    max-width: 768px;
+  }
+
+  .topSectionContent {
+    width: 768px;
+    height: 750px;
+  }
+
+  .header {
+    width: 768px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    gap: 73px;
+    width: 484px;
+    height: 152px;
+    position: relative;
+    left: 142px;
+    top: 69px;
+  }
+
+  .heroSection {
+    width: 768px;
+  }
+
+  .topSectionBackground {
+    width: 768px;
   }
 }

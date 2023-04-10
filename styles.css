@@ -53,7 +53,7 @@ nav {
 }
 
 .navbar-toggler {
-  position: absolute;
+  position: relative;
   right: var(--size-20);
   top: var(--size-10);
   outline: none;
@@ -123,6 +123,7 @@ nav {
   flex: none;
   order: 1;
   flex-grow: 0;
+  flex-wrap: wrap;
 }
 
 .heroSection .leftPart {
@@ -350,16 +351,8 @@ nav {
 }
 
 #topSectionBackground {
-  /* position: absolute; */
   width: 64rem;
   height: 32.3125rem;
-  /* left: 0.03125rem; */
-  /* top: -0.0625rem; */
-  /* background: linear-gradient(
-    312.73deg,
-    rgba(217, 217, 217, 0.44) 17.61%,
-    rgba(217, 217, 217, 0) 55.85%
-  ); */
 }
 
 .keyBenefitsSection {
@@ -369,9 +362,10 @@ nav {
   padding: 7.5rem 0rem 5rem;
   gap: var(--size-60);
   width: 64rem;
-  /* height: 655px; */
+  height: 655px;
   order: 1;
   z-index: 1;
+  /* flex-wrap: wrap; */
 }
 
 .benefitsTitle {
@@ -416,6 +410,7 @@ nav {
   gap: var(--size-30);
   width: 64rem;
   height: 20.625rem;
+  flex-wrap: wrap;
 }
 
 .benefitItem {
@@ -581,6 +576,7 @@ nav {
   flex: none;
   order: 3;
   z-index: 3;
+  flex-wrap: wrap;
 }
 
 .bannerSectionContent {
@@ -862,6 +858,7 @@ nav {
   /* height: 35rem; */
   z-index: 6;
   order: 6;
+  /* flex-wrap: wrap; */
 }
 
 .hubspotSection #leftPart {
@@ -927,8 +924,9 @@ nav {
   height: 3.125rem;
   order: 0;
   position: relative;
-  top: 4.375rem;
+  top: 30px;
   left: 0rem;
+  padding-bottom: 60px;
 }
 
 .description p {
@@ -939,7 +937,8 @@ nav {
   line-height: 2rem;
   color: var(--text-section-color);
   order: 1;
-  margin: 3.125rem 0rem 0rem;
+  /* margin: 3.125rem 0rem 0rem; */
+  margin: 0rem;
 }
 
 .person {
@@ -985,6 +984,7 @@ nav {
   height: 13rem;
   order: 7;
   z-index: 7;
+  flex-wrap: wrap;
 }
 
 .brandsSection .whyFrontTitle {
@@ -999,7 +999,7 @@ nav {
   align-items: flex-start;
   /* padding: 0rem 1.875rem; */
   padding: 0rem;
-  width: 64rem;
+  width: 62rem;
   height: 3.6875rem;
   order: 1;
 }
@@ -1059,6 +1059,7 @@ nav {
   height: 43.25rem;
   order: 8;
   z-index: 8;
+  flex-wrap: wrap;
 }
 
 .pricingTitle {
@@ -1487,6 +1488,7 @@ nav {
   background: #20335b;
   order: 9;
   z-index: 9;
+  flex-wrap: wrap;
 }
 
 .hireUsSection .leftPart {
@@ -1957,6 +1959,7 @@ footer {
   height: 33.8125rem;
   order: 10;
   z-index: 10;
+  flex-wrap: wrap;
 }
 
 ul {

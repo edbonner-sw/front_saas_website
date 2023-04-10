@@ -33,7 +33,7 @@ body {
   /* margin: auto; */
   background: var(--def-background-color);
   color: var(--def-font-color);
-  isolation: isolate;
+  margin: 0px;
 }
 
 main {
@@ -60,4 +60,10 @@ a {
 
 .grow:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
 }
