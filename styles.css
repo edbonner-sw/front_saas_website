@@ -29,7 +29,6 @@ header {
   align-items: center;
   box-sizing: border-box;
   padding: 0.625rem 1.875rem;
-  /* padding: 0.625rem 0rem; */
   width: 64rem;
   height: 5.375rem;
   flex-grow: 0;
@@ -120,7 +119,6 @@ nav {
   align-items: flex-start;
   padding: var(--size-40) var(--size-30) 0rem;
   box-sizing: border-box;
-  /* padding: var(--size-40) 0rem; */
   gap: var(--size-10);
   width: 64rem;
   height: 27.875rem;
@@ -366,6 +364,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
   padding: 7.5rem 0rem 5rem;
   gap: var(--size-60);
   width: 64rem;
@@ -411,12 +410,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  /* padding: var(--size-10) var(--size-30); */
   padding: var(--size-10) 0rem;
   margin: 0rem;
   gap: var(--size-30);
   width: 64rem;
-  height: 20.625rem;
+  /* height: 20.625rem; */
   flex-wrap: wrap;
 }
 
@@ -804,9 +802,10 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   /* padding: 0rem 0rem 5rem 1.875rem; */
-  padding: 0rem 0rem 5rem 1.875rem;
+  padding: 0px 30px 80px;
   gap: 0.625rem;
   width: 60.25rem;
+  /* width: 1024px; */
   height: 31.0625rem;
   z-index: 5;
   order: 5;
@@ -1063,6 +1062,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  box-sizing: border-box;
   padding: 0rem 0rem 7.5rem;
   gap: 3.75rem;
   width: 64rem;
@@ -1109,8 +1109,8 @@ nav {
 .planFeaturesList {
   display: flex;
   align-items: flex-start;
-  /* padding: 0rem 2.75rem; */
-  padding: 0rem;
+  padding: 0rem 2.75rem;
+  box-sizing: border-box;
   gap: 1.875rem;
   width: 64rem;
   height: 28.25rem;
@@ -1966,7 +1966,6 @@ footer {
   align-items: flex-start;
   box-sizing: border-box;
   padding: 5rem 1.875rem 2.5rem;
-  /* padding: 5rem 0rem 2.5rem; */
   gap: 2.5rem;
   width: 1024px;
   height: 33.8125rem;
